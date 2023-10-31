@@ -18,6 +18,15 @@ int main()
         }
         cout<<endl;
     }
+    cout<<endl;
+    for(int j = 0; j < size; j++){
+        if(j%2==0){
+            for(int i = 0 ; i < size ; i++){
+                cout<<arr[i][j]<<" ";
+            }
+            cout<<endl;
+        }
+    }
     
     return 0;
 }
