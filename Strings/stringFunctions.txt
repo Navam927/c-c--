@@ -1,0 +1,20 @@
+Use string library to use these functions.
+
+strcat(): Concatenates str2 at the end of str1.
+strncat(): Appends a portion of string to another.  strncat(str1,str2,number-of-characters).
+strcpy(): Copies str2 to str1.  (Overwrites the string.)
+strncpy(): Copies given number of characters of one string to another.
+strcmp(): Returns 0 if str1 and str2 are same. Returns <0 if str1 < str2. Returns >0 if str1 > str2.
+strcmpi(): Same as strcmp functions. But this functions negotiates case. "A" and "a" are treated the same.
+strstr(): Returns pointer to first occurence of str2 in str1.
+strrstr(): Returns pointer to last occurence of str2 in str1.
+strlen(): Returns the length of string.
+strchr(): Returns the first occurence of char in str1.
+strrchr(): Returns the last occurence of char in str1.
+strlwr(): Converts the string to lower case.
+strupr(): Converts the string to upper case.
+strdup(): Duplicates the string.
+strrev(): Reverse the given string.
+strset(): Sets all characters in a string to given character.
+strnset(): It sets the  portion of characters in a string to given character.
+strtok(): Tokenizing given string using delimiter.
