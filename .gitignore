@@ -13,8 +13,14 @@ Array/a.out
 Array/a.out
 Array/test.cpp
 Array/tempCodeRunnerFile.cpp
-.gitignore
 Operator Overloading/a.out
+<<<<<<< HEAD
 Strings/a.exe
 Operator Overloading/a.exe
 a.exe
+=======
+.vscode/tasks.json
+Strings/a.out
+Inheritance/a.out
+
+>>>>>>> 9c1d76f (added few codes.)
