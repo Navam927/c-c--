@@ -23,4 +23,15 @@ a.exe
 Strings/a.out
 Inheritance/a.out
 
+<<<<<<< HEAD
 >>>>>>> 9c1d76f (added few codes.)
+=======
+Stack/a.out
+Strings/validParentheses
+a.out
+test
+Array/a.out
+.vscode/c_cpp_properties.json
+Array/a.out
+Array/a.out
+>>>>>>> 15fd4fe (added few codes)

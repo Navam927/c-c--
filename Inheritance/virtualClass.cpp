@@ -4,7 +4,7 @@ using namespace std;
 class A
 {
     public:
-        void print()
+        virtual void print()
         {
             cout << "Base class" << endl;
         }
@@ -27,9 +27,9 @@ class D: public B,public C
 
 int main()
 {
-    D *ptr;
+   
     D d;
-    ptr = &d;
-    ptr->print();
+    d.print();
+    
     return 0;
 }
