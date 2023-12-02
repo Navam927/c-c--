@@ -1,4 +1,5 @@
 #include<iostream>
+<<<<<<< HEAD
 #include<vector>
 using namespace std;
 void displayArray(vector<int> v)
@@ -32,4 +33,41 @@ int main()
        displayArray(nums);
        cout << nums.size();
     return 0;
+=======
+#include <climits>
+using namespace std;
+
+class Solution {
+public:
+    int divide(int dividend, int divisor) {
+        
+        int quotient = dividend/divisor;
+        if(dividend <0 && divisor <0)
+        {
+            dividend = -(dividend);
+            divisor = -(divisor);
+            return quotient;
+        }
+
+        if(quotient > INT_MAX)
+        {
+            return INT_MAX;
+        }
+        if(quotient < INT_MIN)
+        {
+            return INT_MIN;
+        }
+    
+
+        return quotient;
+        
+
+    }
+};
+
+int main()
+{
+        Solution s1;
+        cout << s1.divide(2147483648,-1);
+>>>>>>> 15fd4fe (added few codes)
 }
